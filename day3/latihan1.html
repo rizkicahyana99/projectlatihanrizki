@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+    <style>
+        .artikel h1 {
+            color: red;
+            background-color: blue;
+            font-size: 20px;
+        }
+
+        /* 
+        .bacaan.h1 { 
+            sdfdsfds
+
+            sdfdsfds
+
+            dsfs
+            */
+        div.bacaan.h1 {    
+        /* .bacaan {     */
+            color: red;
+            background-color: yellow;
+            font-size: 35px;
+        }
+
+        h1 {
+            color: greenyellow !important;
+        }
+
+        body {
+            background-color: goldenrod;
+            color: blue;
+        }
+
+        #kotak1 {
+            width: 30%;
+            height: 10em;
+            border: solid 1px red;
+            background: white;
+            /* margin: 5em; atas (5em) - kanan (5em) - bawah (5em) - kiri (5em) */
+            /*
+                margin: 5em; sama dengan 
+                */
+                /* margin-top: 5em;
+                margin-right: 5em;
+                margin-bottom: 5em;
+                margin-left: 5em; */
+            margin: 7em 4em; /* atas dan bawah (7em) - kanan dan kiri (10em) */
+            float: left;
+        }
+
+        #kotak2 {
+            width: 40%;
+            height: 20em;
+            border: solid 1px black;
+            background: red;
+            color: yellow;
+            float: left;
+            padding: 7em 3em;
+            font-size: 20px;
+            overflow-y: scroll;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: bold;
+            font-style: italic;
+        }
+
+        #tombol_simpan {
+            padding: .5em 2em;
+            color: #fff;
+            background-color: rgb(115, 115, 193);
+        }
+        #tombol_simpan:hover {
+            background-color: rgb(55, 55, 207);
+            cursor: pointer;
+        }
+        #tombol_simpan:focus, #tombol_simpan:active {
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="artikel">
+        <h1>Hello, World!</h1>
+    </div>
+
+    <div class="bacaan h1">
+        Halo, Dunia!
+    </div>
+
+    
+    <h1>Halo, WOrld!</h1>
+    
+    <div class="bacaaan">Ini Bacaan</div>
+
+    <div id="kotak1">
+        Ini isi kotak 1
+    </div>
+
+    <div id="kotak2">
+        <h3>Ini isi kotak 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facilis minima ad officia natus, est ut dignissimos itaque! Fugiat sint culpa consequatur, nisi eos saepe pariatur vel placeat. Repudiandae, dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minus eaque modi porro, cupiditate eligendi nobis exercitationem quisquam molestias dicta libero autem laborum labore veniam sed? </p>
+        <p>Earum labore quaerat illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eveniet facere asperiores ullam exercitationem saepe quas natus libero officia, pariatur a dicta, iste blanditiis laborum fugiat quis. Sint, quod magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod doloribus, magni sed nemo modi eaque fugiat fugit, commodi veniam unde culpa, sit repellendus error quibusdam soluta ipsa officiis praesentium.</p>
+        <p>Earum labore quaerat illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eveniet facere asperiores ullam exercitationem saepe quas natus libero officia, pariatur a dicta, iste blanditiis laborum fugiat quis. Sint, quod magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod doloribus, magni sed nemo modi eaque fugiat fugit, commodi veniam unde culpa, sit repellendus error quibusdam soluta ipsa officiis praesentium.</p>
+        <p>Earum labore quaerat illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eveniet facere asperiores ullam exercitationem saepe quas natus libero officia, pariatur a dicta, iste blanditiis laborum fugiat quis. Sint, quod magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod doloribus, magni sed nemo modi eaque fugiat fugit, commodi veniam unde culpa, sit repellendus error quibusdam soluta ipsa officiis praesentium.</p>
+    </div>
+    
+    <h2>Free text...</h2>
+
+    <button id="tombol_simpan">Simpan</button>
+
+</body>
+</html>

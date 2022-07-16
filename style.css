@@ -1,0 +1,29 @@
+/* external css */
+#buah-buahan li {
+    /* ol#buah-buahan li { */
+        margin-left: -1em;
+    }
+    .warna_biru {
+        color: blue;
+    }
+    .warna_merah {
+        color: red;
+    }
+    .tulisan_tebal {
+        font-weight: bold;
+    }
+    .tulisan_miring {
+        font-style: italic;
+    }
+    .ol-1 li {
+        margin-left: -1em;
+    }
+    .ol-2 li {
+        margin-left: -2.4em;
+    }
+    .ol-3 li {
+        margin-left: -3.9em;
+    }
+    .ul-1 li {
+        margin-left: -5.5em;
+    }
